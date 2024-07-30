@@ -1,5 +1,7 @@
 import { Button } from "@mui/material";
 import { useState } from "react";
+import { auth, provider } from "./Config/FireBase";
+import { signInWithPopup } from "firebase/auth";
 // import logo from "./logo.svg";
 // import "./App.css";
 
